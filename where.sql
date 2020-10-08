@@ -4,7 +4,7 @@ SELECT autora FROM Livros WHERE editora = 'Cia. Letras';
 
 -- Escreva abaixo o comando SQL que busca uma única ocorrência de cada editora
 -- cujo nome possui as letras 'ti'.
-sELECT DISTINCT editora FROM Livros WHERE editora LIKE %ti% ;
+sELECT DISTINCT editora FROM Livros WHERE editora LIKE '%ti%' ;
 
 -- Escreva abaixo o comando SQL que busca apenas as autoras que foram publicadas
 -- pela editora Martina ou Fantástica.
